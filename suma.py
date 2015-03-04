@@ -24,7 +24,6 @@ class suma:
 
             if self.guardado is None:
                 self.guardado = 0
-            print "SELF: " + str(self.guardado)
 
             if self.guardado:
                 resultado = int(self.guardado) + int(parsedRequest)
